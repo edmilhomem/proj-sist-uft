@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <title>E-Bico</title>
+    <meta name="description" content="E-Bico - Descrição de Trabalho">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/main.css" rel="stylesheet" type="text/css">
+    <style>
+        .white {
+            background-color: #fff;
+            color: #005484;
+        }
+    </style>
+
+    <!--Zoom para as imagens-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zooming/2.1.0/zooming.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const zooming = new Zooming({});
+
+            zooming.listen('.img-zoomable')
+        })
+    </script>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h1>E-Bico</h1>
+                <!--TODO logo-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="six columns" style="text-align: left">
+                <h4>Plataforma de negociação entre provedores de serviços autônomos e clientes.</h4>
+            </div>
+            <div class="six columns" style="text-align: right">
+                <br>
+                Hiago Costa<br>
+                Humberto Duarte<br>
+                João Vitor Jacundá<br>
+                Yuri Alan
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section white">
+    <div class="container">
+        <div class="row">
+            <div class="six columns">
+                <img class="img-zoomable" src="/2018-1/g2/images/tela1.jpg">
+            </div>
+            <div class="six columns" style="text-align: left">
+                <h5>
+                    <br>A área de serviço autônomo, que cresceu bastante nos últimos anos, sofre de fatores que
+                    geram, para os clientes, a <b>insegurança</b> do fornecimento de um serviço de qualidade, e
+                    consequentemente, os autônomos têm <b>maior dificuldade</b> na busca pela demanda dos serviços realizados por eles.
+                </h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="six columns" style="text-align: right">
+                <h5>
+                    <br><br>O projeto <b>E-bico</b> pretende simplificar este processo, se tornando um meio intermediário que auxilie na
+                    <b>busca, negociação, segurança e expansão</b> envolvendo os serviços não-formais na região de Palmas-Tocantins.
+                </h5>
+            </div>
+            <div class="six columns">
+                <img class="img-zoomable" src="/2018-1/g2/images/tela2.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h2>Plano de Negócios</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="four columns">
+                <h5>Parcerias Chave</h5>
+                <b>Empresas terceirizadas</b>, para gerar a circulação inicial do aplicativo e criar uma base de clientes.
+            </div>
+            <div class="four columns">
+                <h5>Atividades Chave</h5>
+                Levantamento de <b>estatísticas</b> a respeito dos trabalhadores autônomos do município, e os serviços que possivelmente seriam prestados.
+            </div>
+            <div class="four columns">
+                <h5>Recursos Chave</h5>
+                Back-end em <b>Node.js</b> e front-ent multi-plataforma em <b>React</b>, com a utilização do banco de dados <b>Neo4j</b>.
+            </div>
+        </div>
+        <div class="row">
+            <div class="four columns">
+                <h5>Proposta de Valor</h5>
+                Pela plataforma, clientes podem contratar serviços <b>mais rápido</b>, e com a <b>segurança</b> de que o serviço terá qualidade, pois o sistema será constantemente moderado.
+            </div>
+            <div class="four columns">
+                <h5>Relações com Clientes</h5>
+                A simplicidade de uso do sistema permite ao cliente realizar as operações de forma rápida e sem erros.
+                A neutralidade da plataforma e a possibilidade de avaliar o serviço prestado conferem confiabilidade.
+            </div>
+            <div class="four columns">
+                <h5>Canais</h5>
+                Acesso via aplicativo para dispositivos móveis, e página web, apresentando as mesmas funcionalidades.
+            </div>
+        </div>
+        <div class="row">
+            <div class="four columns">
+                <h5>Segmentos de Mercado</h5>
+                Consumidores do município, autônomos e empresas de serviço terceirizado.
+            </div>
+            <div class="four columns">
+                <h5>Estrutura de Custos</h5>
+                Infraestrutura digital, incluindo a hospedagem do banco de dados e da plataforma web, e o marketing realizado através do meio físico e redes sociais.
+            </div>
+            <div class="four columns">
+                <h5>Fontes de Renda</h5>
+                A taxa percentual cobrada sobre cada serviço contratado, calculada após o fechamento da negociação de forma automática, junto à interface do provedor de pagamentos.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section white">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h2>Arquitetura do Software</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="six columns">
+                <img class="u-max-full-width img-zoomable" src="/2018-1/g2/images/diagrama1.jpg">
+            </div>
+            <div class="six columns" style="text-align: left">
+                <h5>
+                    <br><br><br>O sistema E-Bico mediará a negociação entre as duas bases de usuários: Clientes e Autônomos, lidando
+                    principalmente com a <b>busca</b> de profissionais e com a logística de <b>pagamento</b>, através de
+                    um provedor parceiro.
+                </h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="six columns" style="text-align: right">
+                <h5>
+                    <br><br>A interface de acesso dos usuários se dá através do <b>aplicativo</b> para dispositivos móveis e do <b>website</b>,
+                    ambos utilizando da plataforma <b>React</b>, com acesso ao sistema interno estabelecido em <b>Node.js</b> através
+                    de padrões seguros de comunicação.
+                </h5>
+            </div>
+            <div class="six columns">
+                <img class="u-max-full-width img-zoomable" src="/2018-1/g2/images/diagrama2.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <h5>
+                    Os dados dos clientes e o sistema de busca presente no aplicativo serão armazenados e executados através do banco de dados
+                    <b>Neo4j</b>, que utiliza do modelo de grafos relacional, nos permitindo assim utilizar de algorítmos de busca maduros e confiáveis.
+                </h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <img class="u-max-full-width img-zoomable" src="/2018-1/g2/images/diagrama3.png">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section ">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <!--TODO adicionar restante do conteúdo-->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section rodape">
+    <div class="container">
+        <div class="row logos">
+            <div class="one-half column">
+                <img src="/images/logo1.png">
+            </div>
+            <div class="one-half column">
+                <img src="/images/logo2.png">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
