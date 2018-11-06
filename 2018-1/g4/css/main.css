@@ -1,0 +1,97 @@
+
+body {
+    background-color: #dd5a02;
+    color: #fff;
+}
+
+.section {
+    padding: 0 0 2rem;
+    text-align: center;
+}
+
+.column,.columns {
+    padding-top: 3rem;
+}
+
+.mini > .column, .mini > .columns {
+    padding-top: 0 !important;
+}
+
+h4, h5 {
+    margin-bottom: 0;
+}
+
+.titulo {
+    background-size: cover;
+    background: url(../images/bg1.jpg) fixed center top;
+    color: #fff;
+}
+
+.trabalhos .row {
+    text-align: left;
+}
+
+.desc {
+    padding-left: 2rem;
+}
+
+.desc a {
+    white-space: nowrap;
+}
+
+.rodape {
+    background-color: #fff;
+    color: #005484;
+}
+
+.bio {
+    text-align: left;
+}
+
+.foto {
+    width: auto;
+    max-height: 250px;
+}
+
+.logos img {
+    max-height: 100px;
+}
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+    .section {
+        padding: 0 0 5rem;
+    }
+    .column,.columns {
+        padding-top: 6rem;
+    }
+    .logos .one-half {
+        width: 100%;
+    }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+    .section {
+        padding: 0 0 5rem;
+    }
+    .column,.columns {
+        padding-top: 6rem;
+    }
+    .logos .one-half {
+        width: 48%;
+    }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+    .section {
+        padding: 0 0 5rem;
+    }
+    .column,.columns {
+        padding-top: 6rem;
+    }
+    .logos .one-half {
+        width: 48%;
+    }
+}
